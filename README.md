@@ -17,7 +17,7 @@ $ cd nginx-php-fpm
 $ docker build -t nginx-php-fpm:php74 . # PHP 7.4.x
 ```
 
-## 推送到docker hub
+## 拉取镜像
 ```
 $ docker pull fukoy/nginx-php-fpm:latest
 ```
