@@ -14,18 +14,18 @@ $ cd nginx-php-fpm
 
 生成镜像
 ```
-$ docker build -t nginx-php-fpm:php74 . # PHP 7.4.x
+$ docker build -t nginx-php-fpm:php7.4 . # PHP 7.4.x
 ```
 
 ## 拉取镜像
 ```
-$ docker pull fukoy/nginx-php-fpm:latest
+$ docker pull fukoy/nginx-php-fpm:php7.4
 ```
 
 ## 运行
 运行镜像
 ```
-$ sudo docker run -d wyveo/nginx-php-fpm:latest
+$ sudo docker run -d fukoy/nginx-php-fpm:php7.4
 ```
 
 默认网站目录
